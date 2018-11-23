@@ -1,10 +1,16 @@
 # MyPastel
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+This project was generated with 
+1. [Angular CLI](https://github.com/angular/angular-cli) version 7.0.6.
+2. Node 10.13.0
+
+## Dependencies
+1. http-server : npm install http-server -g
+2. Angular Material : npm install --save @angular/material
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `http-server -p 8080 -c-1 dist/my-pastel` for a dev server. Navigate to `http://ipaddress:4200/`. 
 
 ## Code scaffolding
 
