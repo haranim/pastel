@@ -2,11 +2,10 @@
   "name": "my-pastel",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
+    "serve": "ng serve --watch --port 4200",
+    "start": "http-server -p 4200 -c-1 dist/my-pastel",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint",
     "e2e": "ng e2e"
   },
   "private": true,
