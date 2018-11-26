@@ -10,7 +10,7 @@ This project was generated with
 
 ## Development server
 
-Run `http-server -p 8080 -c-1 dist/my-pastel` for a dev server. Navigate to `http://ipaddress:4200/`. 
+Run `http-server -p 4200 -c-1 dist/my-pastel` for a dev server. Navigate to `http://ipaddress:4200/`. 
 
 ## Code scaffolding
 

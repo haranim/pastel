@@ -10,6 +10,9 @@ import { CharactersComponent } from './characters/characters.component';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { CommentsComponent } from './characters/comments/comments.component';
 import { EpisodesComponent } from './episodes/episodes.component';
+import { MenuComponent } from './menu/menu.component';
+import { HomeComponent } from './home/home.component';
+import { AppService } from './app.service';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,9 @@ import { EpisodesComponent } from './episodes/episodes.component';
     CharactersComponent,
     NewsletterComponent,
     CommentsComponent,
-    EpisodesComponent
+    EpisodesComponent,
+    MenuComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +30,7 @@ import { EpisodesComponent } from './episodes/episodes.component';
     AngularMaterialModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [],
+  providers: [AppService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
