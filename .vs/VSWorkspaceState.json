@@ -4,10 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\characters",
-    "\\src\\app\\characters\\comments",
-    "\\src\\assets\\icons",
-    "\\src\\assets\\images"
+    "\\src\\app\\episodes",
+    "\\src\\app\\home",
+    "\\src\\app\\menu",
+    "\\src\\app\\newsletter",
+    "\\src\\app\\shared",
+    "\\src\\app\\shared\\angular-material"
   ],
-  "SelectedNode": "\\src\\app\\app.module.ts",
+  "SelectedNode": "\\src\\app\\app-model.ts",
   "PreviewInSolutionExplorer": false
 }

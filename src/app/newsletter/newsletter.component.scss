@@ -1,0 +1,42 @@
+.main-form
+{
+  min-width:300px;
+  max-width:400px;
+  float:left;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.name-input{
+  width:50%;
+  float:left;
+}
+
+.mat-radio-button{
+  margin:10px;
+}
+
+.mat-form-field{
+  margin-top:10px;
+}
+
+.btn-submit{
+  padding:20px;
+  text-align:center;
+}
+
+.rating-panel {
+  float: left;
+  margin-left: 200px;
+  padding-top: 100px;
+
+  .mat-form-field{
+    width:300px;
+  }
+}
+
+.mat-slider-horizontal{
+  width:300px;
+}

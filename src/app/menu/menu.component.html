@@ -11,11 +11,16 @@
     <mat-icon>featured_video</mat-icon>
   </mat-toolbar-row>
 
-  <mat-toolbar-row>
+  <mat-toolbar-row >
     <a routerLink="/character" routerLinkActive="active">Characters</a>
     <span class="spacer"></span>
     <mat-icon>face</mat-icon>
   </mat-toolbar-row>
+
+  <mat-menu #subMenu="matMenu" xPosition="before" >
+    <button mat-menu-item>Frankie</button>
+    <button mat-menu-item>Cleo</button>
+  </mat-menu>
 
   <mat-toolbar-row>
     <a routerLink="/newsletter" routerLinkActive="active">NewsLetter</a>

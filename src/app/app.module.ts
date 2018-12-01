@@ -13,6 +13,7 @@ import { EpisodesComponent } from './episodes/episodes.component';
 import { MenuComponent } from './menu/menu.component';
 import { HomeComponent } from './home/home.component';
 import { AppService } from './app.service';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { AppService } from './app.service';
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     AppRoutingModule,
     AngularMaterialModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })

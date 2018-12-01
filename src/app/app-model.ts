@@ -6,3 +6,9 @@ export interface Episode {
   poster: string;
   description: string;
 }
+
+export interface Character {
+  id: number;
+  name: number;
+  totalScore: number;
+}
