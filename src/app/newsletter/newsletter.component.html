@@ -41,14 +41,14 @@
     <mat-checkbox>Subscribe me to receíve updates on new episodes</mat-checkbox>
   </p>
   <p class="btn-submit">
-    <button mat-raised-button color="accent">Save</button>
+    <button mat-raised-button color="accent" (click)="saveDetails()">Save</button>
   </p>
 </div>
 <div class="rating-panel">
   <div>
     <mat-form-field appearance="outline">
       <mat-select placeholder="Favorite Character">
-        <mat-option *ngFor="let character of characters">
+        <mat-option *ngFor="let character of characters" [value]="character">
           {{character}}
         </mat-option>
       </mat-select>

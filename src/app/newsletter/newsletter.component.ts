@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroupDirective, NgForm, Validators } from '@angular/forms';
 import { ErrorStateMatcher } from '@angular/material/core';
+import { MatSnackBar } from '@angular/material';
 
 export class MyErrorStateMatcher implements ErrorStateMatcher {
   isErrorState(control: FormControl | null, form: FormGroupDirective | NgForm | null): boolean {
@@ -16,6 +17,10 @@ export class MyErrorStateMatcher implements ErrorStateMatcher {
 })
 export class NewsletterComponent  {
 
+  constructor(public snackBar: MatSnackBar) { }
+
+  public characters: string[] = ['Frankie', 'Lobo', 'Katya', 'Esmie', 'Igor', 'Spike', 'Drac'];
+
   emailFormControl = new FormControl('', [
     Validators.required,
     Validators.email,
@@ -23,5 +28,10 @@ export class NewsletterComponent  {
 
   matcher = new MyErrorStateMatcher();
 
+  saveDetails() {
+    this.snackBar.open('SUCCESS', 'OK', {
+      duration: 2000,
+    });
+  }
 
 }

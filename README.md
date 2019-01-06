@@ -1,5 +1,5 @@
 # MyPastel
-Progressive Web Application to demonstrate angular routing, mat-side-nav, mat-form-field, mat-table components in Angular material Library 
+Progressive Web App to demonstrate Angular routing, Modern UI components from Material library
 
 
 This project was generated with 
@@ -18,4 +18,7 @@ Run `http-server -p 4200 -c-1 dist/my-pastel` for a dev server. Navigate to `htt
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Demo
+
+https://www.useloom.com/share/d505eb21b91741b8912940c2208b260d
 
